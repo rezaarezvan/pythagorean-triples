@@ -7,6 +7,4 @@
 ./a.out  1.24s user 3.13s system 48% cpu 9.105 total
 ```
 to generate 1 Million triples, including time taken to output results
-(`clang -O3 main.c && strip a.out` with Clang 11.1.0) 
-
-(running on Arch Linux 64bit, Intel(R) Core(TM) i3-2350M CPU @ 2.30GHz)
+(`clang -O3 main.c && strip a.out`)
